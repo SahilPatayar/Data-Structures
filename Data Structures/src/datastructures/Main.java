@@ -18,6 +18,8 @@ public class Main
 		one.addAtIndex(2, 66);
 		one.display();	
 		one.circular();*/
+		
+		/*// Testing Stack
 		StackUsingArray s = new StackUsingArray();
 		for(int i = 1; i < 16; i++)
 		{
@@ -28,8 +30,17 @@ public class Main
 		System.out.println(" " + s.pop());
 		System.out.println(" " + s.top());
 		System.out.println("S : " + s.size());
+		*/
+	
+		/*// Testing Queue
+		QueueUsingArray q = new QueueUsingArray(8);
+		for(int i = 1; i < 9; i++)
+			q.enqueue(i);
+			
+		System.out.println("Size : " + q.size());
 		
-	
-	
+		for(int i = 1; i < 9; i++)
+			System.out.println("De : " + q.dequeue());*/
+		
 	}
 }
